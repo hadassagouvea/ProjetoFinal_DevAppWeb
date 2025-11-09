@@ -1,4 +1,4 @@
-import { subscribeCars, addCar, updateCar, deleteCar } from "./firebase.js";
+import { subscribeCars, addCar, updateCar, deleteCar } from "./CarsController.js";
 
 const form = document.getElementById("car-form");
 const carIdInput = document.getElementById("car-id");
